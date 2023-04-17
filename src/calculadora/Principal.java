@@ -30,6 +30,13 @@ public class Principal {
 				resul=num1+num2;
 				System.out.printf("El resultado de la suma es %.2f", resul);
 				break;
+			case 2:
+				System.out.println("Diga el primer número");
+				num1=Leer.datoDouble();
+				System.out.println("Diga el segundo número");
+				num2=Leer.datoDouble();
+				resul=num1-num2;
+				System.out.printf("El resultado de la resta es %.2f", resul);
 			}
 		}while(menu!=0);
 	}
