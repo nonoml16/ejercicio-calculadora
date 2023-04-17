@@ -63,7 +63,14 @@ public class Principal {
 				resul=num1%num2;
 				System.out.printf("El resto de la división es %.2f", resul);
 				break;
+			case 0:
+				System.out.println("Saliendo...");
+				break;
+			default:
+				System.out.println("Opción no válida.");
+				break;
 			}
 		}while(menu!=0);
+		System.out.println("Gracias por usar el programa!");
 	}
 }
