@@ -21,6 +21,16 @@ public class Principal {
 			System.out.println("===================");
 			menu = Leer.datoInt();
 			
+			switch (menu) {
+			case 1:
+				System.out.println("Diga el primer número");
+				num1=Leer.datoDouble();
+				System.out.println("Diga el segundo número");
+				num2=Leer.datoDouble();
+				resul=num1+num2;
+				System.out.printf("El resultado de la suma es %.2f", resul);
+				break;
+			}
 		}while(menu!=0);
 	}
 }
